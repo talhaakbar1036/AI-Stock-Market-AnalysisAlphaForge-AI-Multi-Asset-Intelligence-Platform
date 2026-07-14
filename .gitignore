@@ -27,13 +27,19 @@ wheels/
 .ipynb_checkpoints/
 
 # Data files
-data/raw/*
-data/processed/*
-data/models/*
+# Data files
+
+# Ignore processed data and models
+data/processed/
+data/models/
+
+# Keep raw datasets in Git
+!data/raw/
+
+# Keep placeholders
 !data/raw/.gitkeep
 !data/processed/.gitkeep
 !data/models/.gitkeep
-
 # Logs
 logs/*
 !logs/.gitkeep
