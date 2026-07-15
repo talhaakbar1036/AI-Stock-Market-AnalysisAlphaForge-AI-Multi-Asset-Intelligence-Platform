@@ -157,4 +157,8 @@ Upcoming
 - Investment Recommendation Engine
 - Portfolio Optimization
 - Backtesting
+<<<<<<< HEAD
 - Deployment
+=======
+- Deployment
+>>>>>>> 5cc4af6 (	new file:   .gitignore.bak)
